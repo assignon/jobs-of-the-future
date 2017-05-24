@@ -1,50 +1,214 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
     <head>
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
+
         <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
+        <link rel="stylesheet" type="text/css" href="css/futureJobs.css">
+        <link rel="stylesheet" type="text/css" href="iconsMoons/style.css">
+
+        <link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/Navmenu.css">
+        <!--<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">-->
+        <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
+        <!--<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery-ui/jquery-ui.js"></script>
+        <script type="text/javascript" src="js/Nav.js"></script>
+        <title>Jobs of future</title>
     </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-                <button id="takePicture">Take picture</button>
+    <body id="body">
+
+       <div id="globalContainer">
+
+         <div id="start">
+
+            <!--<img src="img/Adam.jpg" alt="">-->
+            <section>
+                <div class="omtekst">
+                    <h1>amsterdam</h1>
+                    <h1>economic</h1>
+                    <h1 class="bold">board</h1>
+                </div>
+            </section>
+
+         </div>
+
+
+         <div  id="menuApp">
+
+           <div id="menu">
+
+             <div id="myNav" class="overlay">
+
+               <div id="logoClose">
+
+                 <div class="logo">
+                     <h5>amsterdam</h5>
+                     <h5>economic</h5>
+                     <h5 class="bold">board</h5>
+                 </div>
+
+                 <a href="javascript:void(0)" class="closebtn">&times;</a>
+
+               </div>
+
+                 <div class="overlay-content">
+                     <p class="jobsName">Global Giants</p>
+                     <p class="jobsName">European Renewal</p>
+                     <p class="jobsName">International Alliances</p>
+                     <p class="jobsName">Local for Local</p>
+                 </div>
+             </div>
+
+             <span class="omnav" style="font-size:30px;cursor:pointer">
+                 <img src="img/Adam.jpg" id="logo">
+                 <span class="iconnav" style="cursor:pointer;">&#9776;</span>
+             </span>
+
             </div>
+
+            <div class="app">
+
+
+               <div id="bannenContener">
+
+                  <div id="bannen">
+
+                     <div class="jobs">
+
+                       <div class="ban" id="jobs1"><p>Global Giant</p></div>
+                       <div class="ban" id="jobs2"><p>European Renewal</p></div>
+
+                     </div>
+
+                     <div class="jobs">
+
+                       <div class="ban" id="jobs3"><p>International Alliances</p></div>
+                       <div class="ban" id="jobs4"><p>Local for Local</p></div>
+
+                     </div>
+
+                  </div>
+
+
+               </div>
+
+            </div>
+
+         </div>
+
+       </div>
+
+
+
+        <div class="jobs1">
+
+          <img src="img/AchtergrondenJobsOfTheFuture/opening.jpg" alt="" width="100%" id="back1">
+
+            Global Giant
+
         </div>
+
+        <div class="jobs2" id="euroReneval">
+
+           <img src="img/AchtergrondenJobsOfTheFuture/opening.jpg" alt="" width="100%" class="back">
+           <div id="animation2">
+
+             <div class="animationsElem">
+
+               <img src="img/Personages/EuropeanRenewalNigga.png" width="80px" height="130px;" alt="" id="persoon2">
+               <p id="text2"></p>
+
+             </div>
+
+
+             <div class="animationsElem">
+
+               <img src="img/Personages/EuropeanRenewalNigga.png" width="80px" height="130px;" alt="" id="persoon2">
+               <p id="text2"></p>
+
+             </div>
+
+
+             <div class="animationsElem">
+
+               <img src="img/Personages/EuropeanRenewalNigga.png" width="80px" height="130px;" alt="" id="persoon2">
+               <p id="text2"></p>
+
+             </div>
+
+           </div>
+
+        </div>
+
+
+        <div class="jobs3">
+
+
+          <img src="img/AchtergrondenJobsOfTheFuture/achtergrondpiet.jpg" alt="" width="100%" id="back3">
+
+           International Alliances
+
+        </div>
+
+
+        <div class="jobs4" id="localForLocal">
+
+          <img src="img/AchtergrondenJobsOfTheFuture/achtergrondpiet.jpg" alt="" width="100%" class="back">
+
+           <div id="animation4">
+
+             <div class="fourAnimations" id="startLocal">
+
+               <img src="img/Personages/Localforlocalzwerverbeginpersonage.png" width="80px" height="130px;" alt="" id="persoon4">
+               <p id="text4"></p>
+
+             </div>
+
+
+             <div class="fourAnimations" id="eu">
+
+
+               <img src="img/Personages/Localforlocalzwerverbeginpersonage.png" width="80px" height="130px;" alt="" id="persoon5" class="fithElem">
+               <p id="text5" class="fithElem"></p>
+
+             </div>
+
+
+             <div class="fourAnimations" id="euFlag">
+
+               <img src="img/AchtergrondenJobsOfTheFuture/eu.png" width="150px" height="200px;" alt="" id="persoon6">
+
+               <div class="euFlags">
+
+                 <img src="img/AchtergrondenJobsOfTheFuture/turki.png" alt="" width="50px" height="40px" id="turki">
+                 <img src="img/AchtergrondenJobsOfTheFuture/uk.png" alt="" width="50px" height="40px" id="uk">
+                 <img src="img/AchtergrondenJobsOfTheFuture/france.png" alt="" width="50px" height="40px" id="france">
+                 <img src="img/AchtergrondenJobsOfTheFuture/grec.png" alt="" width="50px" height="40px" id="grec">
+                 <img src="img/AchtergrondenJobsOfTheFuture/rom.png" alt="" width="50px" height="40px" id="rom">
+                 <img src="img/AchtergrondenJobsOfTheFuture/span.png" alt="" width="50px" height="40px" id="span">
+
+               </div>
+
+
+
+             </div>
+
+           </div>
+
+
+        </div>
+
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <!--<script type="text/javascript" src="js/jquery.js"></script>-->
+        <!--<script type="text/javascript" src="js/jquery-ui/jquery-ui.js"></script>-->
+
     </body>
 </html>

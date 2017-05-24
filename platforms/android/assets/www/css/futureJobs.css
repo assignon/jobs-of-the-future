@@ -1,0 +1,586 @@
+body
+{
+
+   padding: 0px;
+   margin: 0px;
+  /* background-size: 100vh 100vh;
+   overflow-x: hidden;*/
+
+}
+
+
+#globalContainer
+{
+
+   width: 100%;
+   height: auto;
+
+}
+
+
+#start
+{
+
+   width: 100%;
+   height: 100vh;
+   background-color: #E93E34;
+   z-index: 4;
+   position: absolute;
+
+}
+
+
+#start img
+{
+
+   width: 100%;
+   height: 95%;
+   background-color: #E93E34;
+
+}
+
+
+#menuApp
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   position: absolute;
+   z-index: 3;
+
+}
+
+
+#app
+{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+
+
+}
+
+
+#menu
+{
+
+   width: 100%;
+   height: 50px;
+   background-color: #E83F34;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   overflow: hidden;
+   position: fixed;
+   z-index: 2;
+
+}
+
+
+#logoClose
+{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: auto;
+   margin-bottom: -100px;
+   z-index: 4;
+
+}
+
+
+.logo
+{
+
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 20px;
+   position: relative;
+   top: 50px;
+
+}
+
+
+.logo h5
+{
+
+   color: white;
+   margin-top: -25px;
+
+}
+
+
+
+.jobsName
+{
+
+   color: white;
+   font-size: 18px;
+   text-align: center;
+   margin-bottom: 30px;
+   cursor: pointer;
+
+}
+
+
+.jobsName:hover
+{
+
+   color: #f1f1f1;
+
+}
+
+
+.icon-play3
+{
+
+  /* left: 150px;*/
+
+}
+
+
+.icon-pause2
+{
+
+  /* left: 150px;*/
+
+}
+
+
+.app
+{
+
+  width: 100%;
+  height: auto;
+  margin-top: 7.3vh;
+
+}
+
+
+#bannenContener
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+
+#bannen
+{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 100%;
+   height: auto;
+   overflow: hidden;
+
+}
+
+
+.jobs
+{
+
+   width: 100%;
+   height: 46.4vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.jobs div
+{
+
+   width: 50%;
+   height: 100%;
+   background-color: #E83F34;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.jobs p
+{
+
+   text-align: center;
+   color: white;
+   font-size: 18px;
+
+}
+
+#jobs1
+{
+
+   background-color: #F3BD75;
+   position: relative;
+   right: 300px;
+   bottom: 300px;
+
+}
+
+
+#jobs2
+{
+
+   background-color: #FF89AB;
+   position: relative;
+   left: 300px;
+   bottom: 300px;
+
+}
+
+
+#jobs3
+{
+
+   background-color: #7ADCDD;
+   position: relative;
+   right: 300px;
+   top: 300px;
+
+}
+
+
+#jobs4
+{
+
+   background-color: #ABD277;
+   position: relative;
+   left: 300px;
+   top: 300px;
+
+}
+
+
+#jobsContainer
+{
+
+    width: auto;
+    height: auto;
+
+}
+
+.jobs1,.jobs2, .jobs3, .jobs4
+{
+
+   width: 100%;
+   /*background-color: red;*/
+   position: relative;
+
+}
+
+
+#euroReneval
+{
+
+   height: 100vh;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   background-size: contain;
+   overflow: hidden;
+
+}
+
+
+.back
+{
+
+/*  margin-bottom: -400px;*/
+  height: 100%;
+  position: fixed;
+  /*margin-top: 0px;*/
+
+}
+
+
+#animation2
+{
+
+   width: 100%;
+   height: 200px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:flex-start;
+   align-items: flex-end;
+   z-index: 2;
+   margin-top: 50px;
+  /* position: absolute;
+   /*background-size: auto, contain, cover*/
+
+
+}
+
+#animation2 img
+{
+
+  position: relative;
+  top: 40px;
+  left: 20px;
+
+}
+
+
+#text2
+{
+
+   width: 270px;
+   height: auto;
+   padding: 10px;
+   border: 1px solid #E6E7EC;
+   border-radius: 10px;
+   text-align: left;
+   font-size: 13px;
+   background-color: #E6E7EC;
+   position: relative;
+   bottom: 180px;
+   left: 70px;
+
+}
+
+
+#localForLocal
+{
+
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /*background-image: url(../img/AchtergrondenJobsOfTheFuture/achtergrondpiet.jpg);
+  background-size: 100vh 100vh;
+  background-repeat: repeat;*/
+/*  overflow: hidden;*/
+
+}
+
+
+#animation4
+{
+
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+  /* flex-wrap: wrap;*/
+   justify-content: center;
+   align-items: center;
+   z-index: 2;
+   margin-top: 50px;
+  /* overflow-x: hidden;*/
+  /* margin-top: 15px;*/
+
+}
+
+
+.fourAnimations
+{
+
+   display: flex;
+   width: 100%;
+  /** margin-bottom: 50px;*/
+
+}
+
+
+.fourAnimations:nth-child(1)
+{
+
+   position: relative;
+   top: 230px;
+   flex-direction: row;
+   height: 200px;
+   justify-content: flex-start;
+   align-items: flex-start;
+
+}
+
+
+#persoon4
+{
+
+  /*top: 70px;*/
+  right: 100px;
+
+}
+
+
+#text4
+{
+
+   width: 300px;
+   height: auto;
+   padding: 10px;
+   border: 1px solid #E6E7EC;
+   border-radius: 10px;
+   text-align: left;
+   font-size: 12px;
+   background-color: #E6E7EC;
+   position: relative;
+   bottom: 70px;
+   right: 15px;
+
+}
+
+
+
+.fourAnimations:nth-child(2)
+{
+
+   position: relative;
+   top: 200px;
+   flex-direction: row-reverse;
+   height: 300px;
+   margin-bottom: 50px;
+   justify-content: space-between;
+   align-items: flex-end;
+   opacity: 0;
+
+}
+
+
+.fourAnimations:nth-child(2) img
+{
+
+  top: 70px;
+/*  left: 200px;*/
+
+}
+
+
+#text5
+{
+
+   width: 270px;
+   height: auto;
+   padding: 10px;
+   border: 1px solid #E6E7EC;
+   border-radius: 10px;
+   text-align: left;
+   font-size: 12px;
+   background-color: #E6E7EC;
+  /* margin-left: -25px;**/
+   position: relative;
+   left: 10px;
+   /*right: 370px;*/
+
+}
+
+
+
+#animation4 img
+{
+
+  position: relative;
+
+
+}
+
+
+.fourAnimations:nth-child(3)
+{
+
+  position: relative;
+  top: 300px;
+  height: 300px;
+  margin-bottom: 50px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  opacity: 0;
+}
+
+
+.euFlags
+{
+
+   width: 50px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+
+.euFlags img
+{
+
+   position: absolute;
+   top: 30px;
+
+}
+
+
+#turki
+{
+
+margin-right: -50px;
+
+}
+
+#uk
+{
+
+   margin-right: -50px;
+
+}
+
+#france
+{
+
+
+
+}
+
+
+#persoon6
+{
+
+  z-index: 2;
+  margin-right: -100px;
+
+}
+
+
+
+#ban1, #ban2, #ban3, #ban4
+{
+
+  /* width: 100%;
+   height: 500px;
+   background-color: red;
+   border-bottom: 5px solid white;*/
+
+}
